@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+        <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+   <!-- Fonts start -->
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+   
+
+   <!-- Fonts end -->
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Nav bar start-->
+<nav class="navbar">
+    <a href="index.html">
+<img class="brand-image" src="https://i.postimg.cc/7ZpTkNYB/oriflame-logo-navbar.png" width="120" height="44">
+</a>
+<a href="#" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+
+</a>
+<div class="navbar-links">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Bestsellersdeal</a></li>
+        <li><a href="#">Beautyklant</a></li>
+        <li><a href="workshop-boeken.html">Workshop boeken</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+</nav>
+   <!-- Nav bar end -->
+   <!-- contact section start-->
+   <div class="content"><br><br><br><br>
+    <div class="article">
+<h6 class="has-text-centered">Meer Beauty met Chantal</h6>
+    <h2 class="has-text-centered">Meer weten of een workshop boeken?</h2>
+    <p class="has-text-centered is-size-6">Stuur mij een bericht met jouw vraag of welke workshop jij zou willen en ik stuur jouw zo snel mogelijk een bericht terug!<br>
+        Bij het boeken van een workshop of werken bij Oriflame graag telefoonnummer en adres vermelden in bericht.<br>
+        Bij voorbaat dank!<br><br>
+        
+        Chantal Johler</p>
+    </div>
+   </div>
+   <!-- contact section end-->
+   <!-- Form section start -->
+   <form action="contactform.php" method="POST">
+   <div class="columns is-centered">
+   <div class="column is-two-thirds">
+   <div class="field">
+    <label class="label">Naam</label>
+    <div class="control">
+      <input class="input" type="text" name="name" placeholder="Vul hier je naam in" required>
+    </div>
+  </div>
+  
+ 
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control">
+      <input class="input" name="mail" type="email" placeholder="Vul hier je emailadres in">
+      </div>
+  </div>
+  
+  <div class="field">
+    <label class="label">Onderwerp</label>
+    <div class="control">
+      <input class="input" name="subject" type="text" placeholder="Vul hier het onderwerp in">
+      </div>
+  </div>
+  
+  <div class="field">
+    <label class="label">Bericht</label>
+    <div class="control">
+      <textarea class="textarea" name="message" placeholder="Type hier je bericht"></textarea>
+    </div>
+  </div>
+  
+  <div class="field">
+    <div class="control">
+      <label class="checkbox">
+        <input type="checkbox">
+        Ik ga akkoord dat ... 
+      </label required>
+    </div>
+  </div>
+  
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button" name="submit">Versturen</button>
+    </div>
+    
+    </div>
+  </div>
+</div>
+</div>
+</form>
+   <!-- Form section end -->
+
+
+
+</body>
+</html>
